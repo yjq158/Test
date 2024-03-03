@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e7fed816f93422d7146b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ex2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InstrumentPass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InstrumentPass-Debug-87e31f915416980c1977.json",
+					"name" : "InstrumentPass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dse-Debug-43d66a23fd70c62f9d12.json",
+					"name" : "dse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install-InstrumentPass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install-InstrumentPass-Debug-ba0ed44bf1e7eb9141ca.json",
+					"name" : "install-InstrumentPass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install-InstrumentPass-stripped::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install-InstrumentPass-stripped-Debug-1439614f17f3d0d32185.json",
+					"name" : "install-InstrumentPass-stripped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "intrinsics_gen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-intrinsics_gen-Debug-d535e048afe45a943c0f.json",
+					"name" : "intrinsics_gen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "runtime::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-runtime-Debug-4911e78cceef0bbef385.json",
+					"name" : "runtime",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yaojq/Test/LLVMtest/ex2yjq/cmake-build-debug",
+		"source" : "/home/yaojq/Test/LLVMtest/ex2yjq"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
